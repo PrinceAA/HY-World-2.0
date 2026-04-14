@@ -282,6 +282,95 @@ For full benchmark results, please refer to the [technical report](https://3d-mo
   </tbody>
 </table>
 
+### WorldStereo 2.0 — Single-View-Generated Reconstruction
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Methods</th>
+      <th colspan="4">Tanks-and-Temples</th>
+      <th colspan="4">MipNeRF360</th>
+    </tr>
+    <tr>
+      <th>Precision ↑</th>
+      <th>Recall ↑</th>
+      <th>F1-Score ↑</th>
+      <th>AUC ↑</th>
+      <th>Precision ↑</th>
+      <th>Recall ↑</th>
+      <th>F1-Score ↑</th>
+      <th>AUC ↑</th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td align="left">SEVA</td>
+      <td>33.59</td>
+      <td>35.34</td>
+      <td>36.73</td>
+      <td>51.03</td>
+      <td>22.38</td>
+      <td>55.63</td>
+      <td>28.75</td>
+      <td>46.81</td>
+    </tr>
+    <tr>
+      <td align="left">Gen3C</td>
+      <td><u>46.73</u></td>
+      <td>25.51</td>
+      <td>31.24</td>
+      <td>42.44</td>
+      <td>23.28</td>
+      <td><strong>75.37</strong></td>
+      <td>35.26</td>
+      <td>52.10</td>
+    </tr>
+    <tr>
+      <td align="left">Lyra</td>
+      <td><strong>50.38</strong></td>
+      <td>28.67</td>
+      <td>32.54</td>
+      <td>43.05</td>
+      <td>30.02</td>
+      <td>58.60</td>
+      <td>36.05</td>
+      <td>49.89</td>
+    </tr>
+    <tr>
+      <td align="left">FlashWorld</td>
+      <td>26.58</td>
+      <td>20.72</td>
+      <td>22.29</td>
+      <td>30.45</td>
+      <td>35.97</td>
+      <td>53.77</td>
+      <td>42.60</td>
+      <td>53.86</td>
+    </tr>
+    <tr>
+      <td align="left">WorldStereo 2.0</td>
+      <td>43.62</td>
+      <td><u>41.02</u></td>
+      <td><u>41.43</u></td>
+      <td><u>58.19</u></td>
+      <td><strong>43.19</strong></td>
+      <td><u>65.32</u></td>
+      <td><strong>51.27</strong></td>
+      <td><strong>65.79</strong></td>
+    </tr>
+    <tr>
+      <td align="left">WorldStereo 2.0 (DMD)</td>
+      <td>40.41</td>
+      <td><strong>44.41</strong></td>
+      <td><strong>43.16</strong></td>
+      <td><strong>60.09</strong></td>
+      <td><u>42.34</u></td>
+      <td>64.83</td>
+      <td><u>50.52</u></td>
+      <td><u>65.64</u></td>
+    </tr>
+  </tbody>
+</table>
 
 ### WorldMirror 2.0 — Point Map Reconstruction
 
