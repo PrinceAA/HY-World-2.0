@@ -28,8 +28,8 @@ https://github.com/user-attachments/assets/b56f4750-25c9-48fb-83ff-d58526711463
 
 ## 🔥 News
 
-- **[April 15, 2026]**: 🚀 Release HY-World 2.0 technical report & partial codes!
-- **[April 15, 2026]**: 🤗 Open-source WorldMirror 2.0 inference code and model weights!
+- **[April 16, 2026]**: 🚀 Release HY-World 2.0 technical report & partial codes!
+- **[April 16, 2026]**: 🤗 Open-source WorldMirror 2.0 inference code and model weights!
 - **[Coming Soon]**: Release Full HY-World 2.0 (World Generation) inference code.
 - **[Coming Soon]**: Release ![Panorama Generation](https://img.shields.io/badge/Panorama_Generation-4285F4?style=flat-square) (HY-Pano 2.0) model weights & code.
 - **[Coming Soon]**: Release ![Trajectory Planning](https://img.shields.io/badge/Trajectory_Planning-EA4335?style=flat-square)（WorldNav） code.
@@ -138,22 +138,24 @@ Existing world models, such as Genie 3, Cosmos, and HY-World 1.5 (WorldPlay+Worl
 
 | Model | Description | Params | Date | Hugging Face |
 |-------|-------------|--------|------|--------------|
-| WorldMirror 2.0 | Multi-view / video &rarr; 3D reconstruction | ~1.2B | 2026 | [Download](https://huggingface.co/tencent/HY-World-2.0/HY-WorldMirror-2.0) |
-| WorldMirror 1.0 | Multi-view / video &rarr; 3D reconstruction (legacy) | ~1.2B | 2025 | [Download](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
+| WorldMirror-2 [new] | Multi-view / video &rarr; 3D reconstruction | ~1.2B | 2026 | [Download](https://huggingface.co/tencent/HY-World-2.0/HY-WorldMirror-2.0) |
+| WorldMirror-1 | Multi-view / video &rarr; 3D reconstruction (legacy) | ~1.2B | 2025 | [Download](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
 
-### Panorama Generation
+### Panorama Generation — HY-Pano Series
 
 | Model | Description | Params | Date | Hugging Face |
 |-------|-------------|--------|------|--------------|
-| HY-PanoGen | Text / image &rarr; 360° panorama | — | Coming Soon | — |
+| HY-Pano-2 [new] | Text / image &rarr; 360° panorama | — | Coming Soon | — |
 
-### World Generation
+### World Expansion — WorldStereo Series
 
 | Model           | Description | Params | Date | Hugging Face |
 |-----------------|-------------|-----|------|--------------|
-| WorldStereo 2.0 | Panorama &rarr; navigable 3DGS world |  —  | Coming Soon | — |
+| WorldStereo-2 [new] | Panorama &rarr; navigable 3DGS world |  —  | Coming Soon | — |
 
-We recommend referring to our previous works, [WorldStereo](https://github.com/FuchengSu/WorldStereo) and [WorldMirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror), for background knowledge on world generation and reconstruction. 
+### Spatial Planning — WorldNav Series
+
+We recommend referring to our previous works, [WorldStereo](https://github.com/FuchengSu/WorldStereo) and [WorldMirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror), for background knowledge on 3D world generation and reconstruction. 
 
 ## 🤗 Get Started
 

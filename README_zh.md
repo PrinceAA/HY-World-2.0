@@ -29,8 +29,8 @@ https://github.com/user-attachments/assets/b56f4750-25c9-48fb-83ff-d58526711463
 
 ## 🔥 最新动态
 
-- **[2026年4月15日]**：🚀 发布 HY-World 2.0 技术报告及部分代码！
-- **[2026年4月15日]**：🤗 开源 WorldMirror 2.0 推理代码和模型权重！
+- **[2026年4月16日]**：🚀 发布 HY-World 2.0 技术报告及部分代码！
+- **[2026年4月16日]**：🤗 开源 WorldMirror 2.0 推理代码和模型权重！
 - **[即将发布]**：发布完整的 HY-World 2.0（World Generation）推理代码。
 - **[即将发布]**：发布 ![全景生成](https://img.shields.io/badge/Panorama_Generation-4285F4?style=flat-square)（HY-Pano 2.0）模型权重和代码。
 - **[即将发布]**：发布 ![轨迹规划](https://img.shields.io/badge/Trajectory_Planning-EA4335?style=flat-square)（WorldNav）代码。
@@ -138,22 +138,24 @@ HY-World 2.0 是**首个开源的最先进**3D世界模型，其效果可与 Mar
 
 | 模型 | 描述 | 参数量 | 日期 | Hugging Face |
 |------|------|--------|------|--------------|
-| WorldMirror 2.0 | 多视图 / 视频 &rarr; 3D 重建 | ~1.2B | 2026 | [下载](https://huggingface.co/tencent/HY-World-2.0/HY-WorldMirror-2.0) |
-| WorldMirror 1.0 | 多视图 / 视频 &rarr; 3D 重建（旧版） | ~1.2B | 2025 | [下载](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
+| WorldMirror-2 [new] | 多视图 / 视频 &rarr; 3D 重建 | ~1.2B | 2026 | [下载](https://huggingface.co/tencent/HY-World-2.0/HY-WorldMirror-2.0) |
+| WorldMirror-1 | 多视图 / 视频 &rarr; 3D 重建（旧版） | ~1.2B | 2025 | [下载](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
 
-### 全景生成
+### 全景生成 — HY_Pano 系列
 
 | 模型 | 描述 | 参数量 | 日期 | Hugging Face |
 |------|------|--------|------|--------------|
-| HY-PanoGen | 文本 / 图像 &rarr; 360° 全景 | — | 即将发布 | — |
+| HY-Pano-2 [new] | 文本 / 图像 &rarr; 360° 全景 | — | 即将发布 | — |
 
-### 世界生成
+### 世界生成 - WorldStereo 系列
 
 | 模型            | 描述 | 参数量 | 日期 | Hugging Face |
 |-----------------|------|--------|------|--------------|
-| WorldStereo 2.0 | 全景 &rarr; 可导航 3DGS 世界 | — | 即将发布 | — |
+| WorldStereo-2 [new] | 全景 &rarr; 完整 3DGS 世界 | — | 即将发布 | — |
 
-我们建议参考我们之前的工作 [WorldStereo](https://github.com/FuchengSu/WorldStereo) 和 [WorldMirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror)，以了解世界生成和重建的背景知识。
+### 空间规划 - WorldNav系列
+
+我们建议参考我们之前的工作 [WorldStereo](https://github.com/FuchengSu/WorldStereo) 和 [WorldMirror](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror)，以了解3D世界生成和重建的背景知识。
 
 ## 🤗 快速开始
 
