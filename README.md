@@ -139,13 +139,8 @@ Existing world models, such as Genie 3, Cosmos, and HY-World 1.5 (WorldPlay+Worl
 
 | Model | Description | Params | Date | Hugging Face |
 |-------|-------------|--------|------|--------------|
-<<<<<<< HEAD
 | WorldMirror-2 [new] | Multi-view / video &rarr; 3D reconstruction | ~1.2B | 2026 | [Download](https://huggingface.co/tencent/HY-World-2.0/tree/main/HY-WorldMirror-2.0) |
 | WorldMirror-1 | Multi-view / video &rarr; 3D reconstruction (legacy) | ~1.2B | 2025 | [Download](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
-=======
-| WorldMirror-2 [new] | Multi-view / video &rarr; 3D reconstruction | ~1.2B | 2026.4 | [Download](https://huggingface.co/tencent/HY-World-2.0/HY-WorldMirror-2.0) |
-| WorldMirror-1 | Multi-view / video &rarr; 3D reconstruction (legacy) | ~1.2B | 2025.10 | [Download](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
->>>>>>> 549819215ccf28a4c364f456be6de50f08a3ad80
 
 ### Panorama Generation — HY-Pano Series
 
