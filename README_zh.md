@@ -138,7 +138,7 @@ HY-World 2.0 是**首个开源的最先进**3D世界模型，其效果可与 Mar
 
 | 模型 | 描述 | 参数量 | 日期 | Hugging Face |
 |------|------|--------|------|--------------|
-| WorldMirror-2 [new] | 多视图 / 视频 &rarr; 3D 重建 | ~1.2B | 2026 | [下载](https://huggingface.co/tencent/HY-World-2.0/HY-WorldMirror-2.0) |
+| WorldMirror-2 [new] | 多视图 / 视频 &rarr; 3D 重建 | ~1.2B | 2026 | [下载](https://huggingface.co/tencent/HY-World-2.0/tree/main/HY-WorldMirror-2.0) |
 | WorldMirror-1 | 多视图 / 视频 &rarr; 3D 重建（旧版） | ~1.2B | 2025 | [下载](https://huggingface.co/tencent/HunyuanWorld-Mirror/tree/main) |
 
 ### 全景生成 — HY_Pano 系列
